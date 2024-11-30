@@ -13,6 +13,7 @@ The notebook will run without any errors just so long as the text files are pres
 The model that translates the text uses the Pipeline function which is included as part of the transformers library. The user can easily modify the sample text they desire to translate by modifying the "text" variable under the section "Inference."
 
 This is what the sample text looks like:
+
 text = "translate English to Sesotho: Respect those who have worked to build and develop our country"
 
 The output will then be displayed after the Pipeline function has run (the next block after the sample text).
